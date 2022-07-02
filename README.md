@@ -18,6 +18,7 @@ A challenge faced by breweries wishing to book a food truck has been the inabili
 
 Customers who wish to know what food truck will be at a particular brewery location at a given date and time can struggle to easily find this information. Usually it is achieved by trawling through the breweries or food truck businesses social media channels in hope that they have posted their upcoming events for the week.
 
-Crafty Tukka is a web application that connects breweries, food trucks and those who enjoy their products. It achieves this by allowing breweries and food trucks to request and confirm bookings. Once finalised, the booking is then made available to view by general users of the application.
+Crafty Tukka is a web application that aims to solve these problems by facilitating bookings between breweries and food truck operators and then displaying them an easy to navigate user interface.
 
-### **Functionality**
+### **Functionality / Features**
+
