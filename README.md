@@ -22,3 +22,8 @@ Crafty Tukka is a web application that aims to solve these problems by facilitat
 
 ### **Functionality / Features**
 
+Crafty Tukka features 2 types of user accounts that require an initial sign-up and secure login credentials: *Venue and Food Truck*.
+
+Upon creating a new account, both brewery venues and food truck operators will be required to enter general information such as the *business name, description, email and phone number* with an option to include a *website address and social media links*. Unique fields exist for each type of account with breweries being required to provide an address and food trucks a cuisine category. 
+
+Once registered and logged in, a brewery venue will be able to search for food trucks that are available on a given day while having the option to filter the list of food trucks by cuisine type. When the venue has found a food truck that they wish to book, they will be able to send a booking request to the truck operator who will be alerted of the request and then able to either accept or reject the request.
