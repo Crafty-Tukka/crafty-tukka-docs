@@ -20,6 +20,8 @@ Customers who wish to know what food truck will be at a particular brewery locat
 
 Crafty Tukka is a web application that aims to solve these problems by facilitating bookings between breweries and food truck operators and then displaying them with an easy to navigate user interface.
 
+***
+
 ### **Functionality / Features**
 
 Crafty Tukka features 2 types of user accounts that require an initial sign-up and secure login credentials: *Venue and Food Truck*.
@@ -32,9 +34,13 @@ When a booking between a venue and a food truck is confirmed, the details of the
 
 Any member of the public can view the map and event list. They also have the ability to view the individual details of all food trucks and venues.
 
+***
+
 ### **Target Audience**
 
 The Crafty Tukka application was created for use by food truck and brewery businesses in Brisbane. It also aims to serve members of the general public who wish to find out which breweries are hosting food trucks on a given day.
+
+***
 
 ### **Tech Stack**
 
@@ -81,3 +87,24 @@ The Crafty Tukka application was created for use by food truck and brewery busin
 
 - Git
 - GitHub
+
+***
+
+### **User Stories**
+
+#### **Concept Personas**
+
+The developers of Crafty Tukka created four personas whose needs have guided how the application looks and functions:
+
+1. **The Craft Brewery Patron**
+    - Visits craft breweries on a regular to semi-regular basis.
+    - Is happy to make a journey across town to visit a particular brewery or attend an event held at one.
+    - Enjoys the social environment created by a craft brewery and will often visit one with family and friends.
+    - Choice of visited brewery sometimes dictated by the choice of food or entertainment on offer.
+
+1. **The Food-Truck Foodie**
+    - A culinary adventurer who is seeking the best food truck fare that Brisbane has to offer.
+    - Has favourite food trucks that they will seek out on a regular basis.
+    - Will actively search for trucks and cuisines which they have not tried yet.
+
+1. **The Brewery Operator**
