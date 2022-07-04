@@ -115,4 +115,9 @@ The developers of Crafty Tukka created four personas whose needs have guided how
     - Requires tools to make the performace of their role more efficent and effective.
 
 1. **The Food Truck Operator**
-    
+    - A small business owner/operator whose existence depends of securing ongoing locations in which to trade.
+    - Responsible for their own marketing, social media accounts and brand awareness.
+    - Takes great pride in creating high-quality food.
+    - Cost margins are often razor-thin so having a full operating schedule with access to adequate patronage is essential to the viability of the business.
+    - Is looking for ways to make the operation of the business more cost and time efficient.
+
