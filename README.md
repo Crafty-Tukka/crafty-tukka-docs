@@ -107,4 +107,12 @@ The developers of Crafty Tukka created four personas whose needs have guided how
     - Has favourite food trucks that they will seek out on a regular basis.
     - Will actively search for trucks and cuisines which they have not tried yet.
 
-1. **The Brewery Operator**
+1. **The Brewery Events Coordinator**
+    - Responsible for organising and marketing events to be held at the brewery.
+    - Looks for unique and innovative themes concepts to attract patrons to the venue.
+    - Is time-poor as this role is often part-time or shared with other brewery duties.
+    - Handles social media posts and online promotion of the venue.
+    - Requires tools to make the performace of their role more efficent and effective.
+
+1. **The Food Truck Operator**
+    
