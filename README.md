@@ -131,7 +131,7 @@ Amendments to the actions a *Food Truck* user type could perform were also made 
 
 Using the concept personas a guide, the developers of Crafty Tukka created clear stories for the **three** user types that will interact with the application. The aim of creating a streamlined *Minimum Viable Product* (MVP) guided what was to be initially included and excluded from each user story. A committment to constantly seek feedback from users during development and production means that these stories are subject to change.
 
-**General Public User**
+##### **General Public User**
 
 As a General Public user type:
 
@@ -146,7 +146,7 @@ As a General Public user type:
 | Filter food trucks by cuisine type | Narrow down my search results to help me make a choice |
 | Filter venues by event date | Narrow down my search results to help me make a choice |
 
-**Food Truck Operator**
+##### **Food Truck Operator**
 
 As a Food Truck Operator user type:
 
@@ -163,7 +163,7 @@ As a Food Truck Operator user type:
 | View my pending bookings | Approve or reject them |
 | Upload my business image as an avatar | Have recognisable branding on the map |
 
-**Venue**
+##### **Venue**
 
 As a Venue user type:
 
