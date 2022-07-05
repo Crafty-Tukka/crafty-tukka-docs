@@ -135,7 +135,7 @@ Using the concept personas a guide, the developers of Crafty Tukka created clear
 As a General Public user:
 
 | **I want to...** | **So I can...** |
-| ------ | ------ |
+| --- | --- |
 | View today's operating food trucks on a map | See a visual location of today's events |
 | View today's operating food trucks in a sidebar list next to the map | Quickly reference each event's details |
 | View a list of all registered food trucks | Select a food truck to find out more about them |
@@ -149,4 +149,14 @@ As a General Public user:
 As a Food Truck Operator:
 
 | **I want to...** | **So I can...** |
-| ------ | ------ |
+| --- | --- |
+| Sign up as a food truck user type | Have venues contact me to make a booking |
+| Receive booking requests from venues | Grow my business revenue |
+| Define my primary cuisine category | Have users find my food truck by cuisine |
+| Log in and out using secure credentials | Be confident that my private information is secure |
+| Submit a request to edit a booking | Make changes if necessary |
+| Submit a request to delete a booking | Make changes if necessary |
+| View my existing bookings | Be aware of my upcoming obligations |
+| View my pending bookings | Approve or reject them |
+| Upload my business image as an avatar | Have recognisable branding on the map |
+
