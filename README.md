@@ -94,7 +94,7 @@ The Crafty Tukka application was created for use by food truck and brewery busin
 
 #### **Concept Personas**
 
-The developers of Crafty Tukka created four personas whose needs have guided how the application looks and functions:
+The developers of Crafty Tukka created **four** personas whose needs have guided how the application looks and functions:
 
 1. **The Craft Brewery Patron**
     - Visits craft breweries on a regular to semi-regular basis.
@@ -121,10 +121,32 @@ The developers of Crafty Tukka created four personas whose needs have guided how
     - Cost margins are often razor-thin so having a full operating schedule with access to adequate patronage is essential to the viability of the business.
     - Is looking for ways to make the operation of the business more cost and time efficient.
 
-#### User Story Development
+#### **User Story Development**
 
 Following the creation of the four concept personas, the development team determined which functions each user would want to perform in the application. If was determined that the *Craft Brewery Patron* and *Food Truck Foodie* personas shared overlapping needs and were therefore amalgamated into a single *General Public* user type. The joining of these personas into the one user story was possible due to the fact that they did not require authentication to use the application.
 
 Amendments to the actions a *Food Truck* user type could perform were also made after consideration of real-world requirements. An example of this occurred where, in the original user story, a *Food Truck* user could request a booking from a *Brewery Venue* user. Upon consultation with brewery venues, it was determined that this feature would not be desired by breweries and add unnecessary complexity to the application. As a result, the feature of food trucks requesting bookings from a venue was scrapped from their story.
 
-#### Final User Stories
+#### **Final User Stories**
+
+Using the concept personas a guide, the developers of Crafty Tukka created clear stories for the **three** user types that will interact with the application. The aim of creating a streamlined *Minimum Viable Product* (MVP) guided what was to be initially included and excluded from each user story. A committment to constantly seek feedback from users during development and production means that these stories are subject to change.
+
+**General Public User**
+As a General Public user:
+
+| **I want to...** | **So I can...** |
+| ------ | ------ |
+| View today's operating food trucks on a map | See a visual location of today's events |
+| View today's operating food trucks in a sidebar list next to the map | Quickly reference each event's details |
+| View a list of all registered food trucks | Select a food truck to find out more about them |
+| View a list of venues | Select a venue to find out more about them |
+| View the details of a particular food truck | View their bookings, website and socials |
+| View the details of a particular venue | View their website and socials |
+| Filter food trucks by cuisine type | Narrow down my search results to help me make a choice |
+| Filter venues by event date | Narrow down my search results to help me make a choice |
+
+**Food Truck Operator**
+As a Food Truck Operator:
+
+| **I want to...** | **So I can...** |
+| ------ | ------ |
