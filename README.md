@@ -121,3 +121,10 @@ The developers of Crafty Tukka created four personas whose needs have guided how
     - Cost margins are often razor-thin so having a full operating schedule with access to adequate patronage is essential to the viability of the business.
     - Is looking for ways to make the operation of the business more cost and time efficient.
 
+#### User Story Development
+
+Following the creation of the four concept personas, the development team determined which functions each user would want to perform in the application. If was determined that the *Craft Brewery Patron* and *Food Truck Foodie* personas shared overlapping needs and were therefore amalgamated into a single *General Public* user type. The joining of these personas into the one user story was possible due to the fact that they did not require authentication to use the application.
+
+Amendments to the actions a *Food Truck* user type could perform were also made after consideration of real-world requirements. An example of this occurred where, in the original user story, a *Food Truck* user could request a booking from a *Brewery Venue* user. Upon consultation with brewery venues, it was determined that this feature would not be desired by breweries and add unnecessary complexity to the application. As a result, the feature of food trucks requesting bookings from a venue was scrapped from their story.
+
+#### Final User Stories
