@@ -20,6 +20,8 @@ Customers who wish to know what food truck will be at a particular brewery locat
 
 Crafty Tukka is a web application that aims to solve these problems by facilitating bookings between breweries and food truck operators and then displaying them with an easy to navigate user interface.
 
+***
+
 ### **Functionality / Features**
 
 Crafty Tukka features 2 types of user accounts that require an initial sign-up and secure login credentials: *Venue and Food Truck*.
@@ -32,9 +34,13 @@ When a booking between a venue and a food truck is confirmed, the details of the
 
 Any member of the public can view the map and event list. They also have the ability to view the individual details of all food trucks and venues.
 
+***
+
 ### **Target Audience**
 
 The Crafty Tukka application was created for use by food truck and brewery businesses in Brisbane. It also aims to serve members of the general public who wish to find out which breweries are hosting food trucks on a given day.
+
+***
 
 ### **Tech Stack**
 
@@ -81,3 +87,95 @@ The Crafty Tukka application was created for use by food truck and brewery busin
 
 - Git
 - GitHub
+
+***
+
+### **User Stories**
+
+#### **Concept Personas**
+
+The developers of Crafty Tukka created **four** personas whose needs have guided how the application looks and functions:
+
+1. **The Craft Brewery Patron**
+    - Visits craft breweries on a regular to semi-regular basis.
+    - Is happy to make a journey across town to visit a particular brewery or attend an event held at one.
+    - Enjoys the social environment created by a craft brewery and will often visit one with family and friends.
+    - Choice of visited brewery sometimes dictated by the choice of food or entertainment on offer.
+
+1. **The Food-Truck Foodie**
+    - A culinary adventurer who is seeking the best food truck fare that Brisbane has to offer.
+    - Has favourite food trucks that they will seek out on a regular basis.
+    - Will actively search for trucks and cuisines which they have not tried yet.
+
+1. **The Brewery Events Coordinator**
+    - Responsible for organising and marketing events to be held at the brewery.
+    - Looks for unique and innovative themes concepts to attract patrons to the venue.
+    - Is time-poor as this role is often part-time or shared with other brewery duties.
+    - Handles social media posts and online promotion of the venue.
+    - Requires tools to make the performace of their role more efficent and effective.
+
+1. **The Food Truck Operator**
+    - A small business owner/operator whose existence depends of securing ongoing locations in which to trade.
+    - Responsible for their own marketing, social media accounts and brand awareness.
+    - Takes great pride in creating high-quality food.
+    - Cost margins are often razor-thin so having a full operating schedule with access to adequate patronage is essential to the viability of the business.
+    - Is looking for ways to make the operation of the business more cost and time efficient.
+
+#### **User Story Development**
+
+Following the creation of the four concept personas, the development team determined which functions each user would want to perform in the application. If was determined that the *Craft Brewery Patron* and *Food Truck Foodie* personas shared overlapping needs and were therefore amalgamated into a single *General Public* user type. The joining of these personas into the one user story was possible due to the fact that they did not require authentication to use the application.
+
+Amendments to the actions a *Food Truck* user type could perform were also made after consideration of real-world requirements. An example of this occurred where, in the original user story, a *Food Truck* user could request a booking from a *Brewery Venue* user. Upon consultation with brewery venues, it was determined that this feature would not be desired by breweries and add unnecessary complexity to the application. As a result, the feature of food trucks requesting bookings from a venue was scrapped from their story.
+
+#### **Final User Stories**
+
+Using the concept personas a guide, the developers of Crafty Tukka created clear stories for the **three** user types that will interact with the application. The aim of creating a streamlined *Minimum Viable Product* (MVP) guided what was to be initially included and excluded from each user story. A committment to constantly seek feedback from users during development and production means that these stories are subject to change.
+
+##### **General Public User**
+
+As a General Public user type:
+
+| **I want to...** | **So I can...** |
+| --- | --- |
+| View today's operating food trucks on a map | See a visual location of today's events |
+| View today's operating food trucks in a sidebar list next to the map | Quickly reference each event's details |
+| View a list of all registered food trucks | Select a food truck to find out more about them |
+| View a list of venues | Select a venue to find out more about them |
+| View the details of a particular food truck | View their bookings, website and socials |
+| View the details of a particular venue | View their website and socials |
+| Filter food trucks by cuisine type | Narrow down my search results to help me make a choice |
+| Filter venues by event date | Narrow down my search results to help me make a choice |
+
+##### **Food Truck Operator**
+
+As a Food Truck Operator user type:
+
+| **I want to...** | **So I can...** |
+| --- | --- |
+| Be able to do everything that a General Public user can do | Keep up to date on the status of current venues and competitors |
+| Sign up as a food truck user type | Have venues contact me to make a booking |
+| Receive booking requests from venues | Grow my business revenue |
+| Define my primary cuisine category | Have users find my food truck by cuisine |
+| Log in and out using secure credentials | Be confident that my private information is secure |
+| Submit a request to edit a booking | Make changes if necessary |
+| Submit a request to delete a booking | Make changes if necessary |
+| View my existing bookings | Be aware of my upcoming obligations |
+| View my pending bookings | Approve or reject them |
+| Upload my business image as an avatar | Have recognisable branding on the map |
+
+##### **Venue**
+
+As a Venue user type:
+
+| **I want to...** | **So I can...** |
+| --- | --- |
+| Be able to do everything that a General Public user can do | Keep up to date on the status of current food trucks and competitors |
+| Sign up as a venue user type | Make bookings with food trucks |
+| Log in and out using secure credentials | Be confident that my private information is secure |
+| View available food trucks | Target food truck bookings appropriately |
+| Request bookings from a food truck whose availability on a particular day and time is displayed | Have confidence that I am not wasting my time by requesting a booking from an unavailable truck |
+| Submit a request to edit a booking | Make changes if necessary |
+| Submit a request to delete a booking | Make changes if necessary |
+| View my existing bookings | Be aware of my upcoming obligations |
+| View my pending bookings | See if a food truck has approved or rejected them |
+| Upload my business image as an avatar | Have recognisable branding on the map |
