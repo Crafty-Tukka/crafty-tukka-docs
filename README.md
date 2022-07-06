@@ -67,6 +67,7 @@ The Crafty Tukka application was created for use by food truck and brewery busin
 - Material UI
 - Draw.io
 - Whimsical
+- AWS - S3
 
 #### **Deployment**
 
