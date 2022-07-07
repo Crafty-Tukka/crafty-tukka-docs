@@ -128,6 +128,12 @@ Following the creation of the four concept personas, the development team determ
 
 Amendments to the actions a *Food Truck* user type could perform were also made after consideration of real-world requirements. An example of this occurred where, in the original user story, a *Food Truck* user could request a booking from a *Brewery Venue* user. Upon consultation with brewery venues, it was determined that this feature would not be desired by breweries and add unnecessary complexity to the application. As a result, the feature of food trucks requesting bookings from a venue was scrapped from their story.
 
+#### **User Story Management**
+
+In order to manage the application user stories, the developers created a kanban board dedicated to tracking their changes and implementation. The board categorises each user story as *Minimum Viable Product* (MVP) or *Sprinkles* (optional features). Within each of these categories, the stories are tagged with the attriutes *Epic* (User Type) and *Priority* for ease of identification and are assigned a unique number identifier for referencing in the development phase. Stories that have been removed from either MVP and Sprinkles shifted into a Backlog list.
+
+![User Story Kanban Board ScreenShot](./docs/user-stories/user-stories-07072022.png)
+
 #### **Final User Stories**
 
 Using the concept personas a guide, the developers of Crafty Tukka created clear stories for the **three** user types that will interact with the application. The aim of creating a streamlined *Minimum Viable Product* (MVP) guided what was to be initially included and excluded from each user story. A committment to constantly seek feedback from users during development and production means that these stories are subject to change.
@@ -136,50 +142,48 @@ Using the concept personas a guide, the developers of Crafty Tukka created clear
 
 As a General Public user type:
 
-| **I want to...** | **So I can...** |
-| --- | --- |
-| View today's operating food trucks on a map | See a visual location of today's events |
-| View today's operating food trucks in a sidebar list next to the map | Quickly reference each event's details |
-| View a list of all registered food trucks | Select a food truck to find out more about them |
-| View a list of venues | Select a venue to find out more about them |
-| View the details of a particular food truck | View their bookings, website and socials |
-| View the details of a particular venue | View their website and socials |
-| Filter food trucks by cuisine type | Narrow down my search results to help me make a choice |
-| Filter venues by event date | Narrow down my search results to help me make a choice |
+| **I want to...** | **So I can...** | **Related Feature** |
+| --- | --- | --- |
+| View today's operating food trucks on a map | See a visual location of today's events | Home page map with venue pins |
+| View today's operating food trucks in a sidebar list next to the map | Quickly reference each event's details | Home page map sidebar |
+| View a list of all registered food trucks | Select a food truck to find out more about them | Access via a *view trucks* navbar link |
+| View a list of venues | Select a venue to find out more about them | Access via a *view venues* navbar link |
+| View the details of a particular food truck | View their bookings, website and socials | Access via a clickable link on each truck |
+| View the details of a particular venue | View their website and socials | Access via a clickable link on each venue |
+| Filter food trucks by cuisine type | Narrow down my search results to help me make a choice | Access via a dropdown menu in the *view trucks* component |
+| Filter venues by event date | Narrow down my search results to help me make a choice | Access via a dropdown menu in the *view venues* component |
 
 ##### **Food Truck Operator**
 
 As a Food Truck Operator user type:
 
-| **I want to...** | **So I can...** |
-| --- | --- |
-| Be able to do everything that a General Public user can do | Keep up to date on the status of current venues and competitors |
-| Sign up as a food truck user type | Have venues contact me to make a booking |
-| Receive booking requests from venues | Grow my business revenue |
-| Define my primary cuisine category | Have users find my food truck by cuisine |
-| Log in and out using secure credentials | Be confident that my private information is secure |
-| Submit a request to edit a booking | Make changes if necessary |
-| Submit a request to delete a booking | Make changes if necessary |
-| View my existing bookings | Be aware of my upcoming obligations |
-| View my pending bookings | Approve or reject them |
-| Upload my business image as an avatar | Have recognisable branding on the map |
+| **I want to...** | **So I can...** |**Related Feature** |
+| --- | --- | --- |
+| Be able to do everything that a General Public user can do | Keep up to date on the status of current venues and competitors | |
+| Sign up as a food truck user type | Have venues contact me to make a booking | Sign up page accessible from navbar |
+| Receive booking requests from venues | Grow my business revenue | A booking request alert in which the truck can accept or reject booking |
+| Define my primary cuisine category | Have users find my food truck by cuisine |  |
+| Log in and out using secure credentials | Be confident that my private information is secure | Created using brcrypt and knock authentication |
+| View my existing bookings | Be aware of my upcoming obligations | Access via clickable link in the user dashboard |
+| View my pending bookings | Approve or reject them | Access via clickable link in the user dashboard |
+| Upload my business image as an avatar | Have recognisable branding on the map | Required at the time of sign up and can be edited by the user in the edit profile page |
 
 ##### **Venue**
 
 As a Venue user type:
 
-| **I want to...** | **So I can...** |
-| --- | --- |
-| Be able to do everything that a General Public user can do | Keep up to date on the status of current food trucks and competitors |
-| Sign up as a venue user type | Make bookings with food trucks |
-| Log in and out using secure credentials | Be confident that my private information is secure |
-| View available food trucks | Target food truck bookings appropriately |
-| Request bookings from a food truck whose availability on a particular day and time is displayed | Have confidence that I am not wasting my time by requesting a booking from an unavailable truck |
-| Submit a request to edit a booking | Make changes if necessary |
-| Submit a request to delete a booking | Make changes if necessary |
-| View my existing bookings | Be aware of my upcoming obligations |
-| View my pending bookings | See if a food truck has approved or rejected them |
-| Upload my business image as an avatar | Have recognisable branding on the map |
+| **I want to...** | **So I can...** |**Related Feature** |
+| --- | --- | --- |
+| Be able to do everything that a General Public user can do | Keep up to date on the status of current food trucks and competitors | |
+| Sign up as a venue user type | Make bookings with food trucks | Sign up page accessible from navbar |
+| Log in and out using secure credentials | Be confident that my private information is secure | Created using brcrypt and knock authentication |
+| View available food trucks | Target food truck bookings appropriately | Access via a date select tab in the *create booking* page |
+| Request bookings from a food truck whose availability on a particular day and time is displayed | Have confidence that I am not wasting my time by requesting a booking from an unavailable truck | Trucks who have existing bookings on a day are excluded from list of trucks |
+| Submit a request to edit a booking | Make changes if necessary | Access via clickable link in the *my existing bookings page* |
+| Submit a request to delete a booking | Make changes if necessary | Access via clickable link in the *my existing bookings page* |
+| View my existing bookings | Be aware of my upcoming obligations | Access via clickable link in the user dashboard |
+| View my pending bookings | See if a food truck has approved or rejected them | If a booking is rejected, the venue has the ability to request a new truck without having to create a new booking |
+| Upload my business image as an avatar | Have recognisable branding on the map | Required at the time of sign up and can be edited by the user in the edit profile page |
 
 ***
 
