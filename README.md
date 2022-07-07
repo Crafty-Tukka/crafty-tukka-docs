@@ -138,7 +138,7 @@ In order to manage the application user stories, the developers created a kanban
 
 Using the concept personas a guide, the developers of Crafty Tukka created clear stories for the **three** user types that will interact with the application. The aim of creating a streamlined *Minimum Viable Product* (MVP) guided what was to be initially included and excluded from each user story. A committment to constantly seek feedback from users during development and production means that these stories are subject to change.
 
-##### **General Public User**
+#### **General Public User**
 
 As a General Public user type:
 
@@ -153,7 +153,7 @@ As a General Public user type:
 | Filter food trucks by cuisine type | Narrow down my search results to help me make a choice | Access via a dropdown menu in the *view trucks* component |
 | Filter venues by event date | Narrow down my search results to help me make a choice | Access via a dropdown menu in the *view venues* component |
 
-##### **Food Truck Operator**
+#### **Food Truck Operator**
 
 As a Food Truck Operator user type:
 
@@ -168,7 +168,7 @@ As a Food Truck Operator user type:
 | View my pending bookings | Approve or reject them | Access via clickable link in the user dashboard |
 | Upload my business image as an avatar | Have recognisable branding on the map | Required at the time of sign up and can be edited by the user in the edit profile page |
 
-##### **Venue**
+#### **Venue**
 
 As a Venue user type:
 
