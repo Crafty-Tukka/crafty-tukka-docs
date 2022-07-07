@@ -190,3 +190,7 @@ As a Venue user type:
 ### **Application Architecture Diagram**
 
 ![Crafty Tukka Application Architecture Diagram](./docs/aad/aad-crafty-tukka.png)
+
+### **Dataflow Diagram**
+
+### **Project Management**
