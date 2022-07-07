@@ -180,3 +180,9 @@ As a Venue user type:
 | View my existing bookings | Be aware of my upcoming obligations |
 | View my pending bookings | See if a food truck has approved or rejected them |
 | Upload my business image as an avatar | Have recognisable branding on the map |
+
+***
+
+### **Application Architecture Diagram**
+
+![Crafty Tukka Application Architecture Diagram](./docs/aad/aad-crafty-tukka.png)
