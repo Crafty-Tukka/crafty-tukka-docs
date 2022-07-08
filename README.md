@@ -191,13 +191,30 @@ As a Venue user type:
 
 ![Crafty Tukka Application Architecture Diagram](./docs/aad/aad-crafty-tukka.png)
 
+***
+
 ### **Dataflow Diagram**
+
+***
 
 ### **Wireframes**
 
 #### Landing Page Views
 
 Referencing **[MVP User Story #1](https://jwsandeman.notion.site/View-today-s-operating-food-trucks-on-a-map-9d7e0e18537246aba2c5683e42fff3e6)**
-[![General User Story #1 Wireframes](./docs/wireframes/general-user-wireframes/landing-page-mvp-1.png)](https://jwsandeman.notion.site/View-today-s-operating-food-trucks-on-a-map-9d7e0e18537246aba2c5683e42fff3e6)
+![General User Story #1 Wireframes](./docs/wireframes/general-user-wireframes/landing-page-mvp-1.png)
+
+#### Map View With Event Details
+
+Referencing **[MVP User Story #2](https://jwsandeman.notion.site/View-today-s-operating-food-truck-events-in-a-sidebar-list-next-to-the-map-f8a9edd85c7144cdb8c60cc018c325fa)**
+![General User Story #2 Wireframes](./docs/wireframes/general-user-wireframes/mvp-user-story-2.png)
+
+#### Food Truck List and Details Views
+
+Referencing **[MVP User Story #3](https://www.notion.so/jwsandeman/View-a-list-of-food-trucks-37be7a3edf824e7c8427f4456af1c5a2)** and **[MVP User Story #7](https://jwsandeman.notion.site/View-the-details-of-a-particular-food-truck-402c2caa83cf4414a16a9c3264ec3b61)**
+
+![General User Stories #3 ane #7](./docs/wireframes/general-user-wireframes/mvp-user-stories-3-7.png)
+
+***
 
 ### **Project Management**
