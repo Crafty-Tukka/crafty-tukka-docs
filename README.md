@@ -193,6 +193,11 @@ As a Venue user type:
 
 ### **Dataflow Diagram**
 
+### **Wireframes**
 
+#### Landing Page Views
+
+Referencing **[MVP User Story #1](https://jwsandeman.notion.site/View-today-s-operating-food-trucks-on-a-map-9d7e0e18537246aba2c5683e42fff3e6)**
+[![General User Story #1 Wireframes](./docs/wireframes/general-user-wireframes/landing-page-mvp-1.png)](https://jwsandeman.notion.site/View-today-s-operating-food-trucks-on-a-map-9d7e0e18537246aba2c5683e42fff3e6)
 
 ### **Project Management**
