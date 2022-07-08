@@ -212,15 +212,37 @@ Referencing **[MVP User Story #2](https://jwsandeman.notion.site/View-today-s-op
 #### Food Truck List and Details Views
 
 Referencing **[MVP User Story #3](https://www.notion.so/jwsandeman/View-a-list-of-food-trucks-37be7a3edf824e7c8427f4456af1c5a2)** and **[MVP User Story #7](https://jwsandeman.notion.site/View-the-details-of-a-particular-food-truck-402c2caa83cf4414a16a9c3264ec3b61)**
-
 ![General User Stories #3 ane #7](./docs/wireframes/general-user-wireframes/mvp-user-stories-3-7.png)
 
 #### Venue List and Details Views
 
 Referencing **[MVP User Story #4](https://www.notion.so/jwsandeman/View-a-list-of-venues-54307186ee1741c5890f92c000045038)** and **[MVP User Story #8](https://www.notion.so/jwsandeman/View-the-details-of-a-particular-venue-6e8ab0c0e1274c6e880116d8dba2b25a)**
+![General User Stories #4 ane #8](./docs/wireframes/general-user-wireframes/mvp-user-stories-4-8.png)
 
-![General User Stories #3 ane #7](./docs/wireframes/general-user-wireframes/mvp-user-stories-4-8.png)
+#### Venue and Food Truck Filter Views
 
+Referencing **[MVP User Story #5](https://jwsandeman.notion.site/Filter-venues-by-date-027e8fd1b6174767918882ed78a5af64)** and **[MVP User Story #6](https://www.notion.so/jwsandeman/Filter-food-trucks-by-cuisine-type-84073effae814eec9bde136fa73467d8)**
+![General User Stories #5 ane #6](./docs/wireframes/general-user-wireframes/mvp-user-stories-5-6.png)
+
+#### Registered User Sign In Views
+
+Referencing **[MVP User Story 12](https://www.notion.so/jwsandeman/Log-in-and-out-using-secure-credentials-3100c2eb02234785886797b0d3bb4363)** and **[MVP User Story 25](https://jwsandeman.notion.site/Log-in-and-out-using-secure-credentials-646984d86a024af8ad6f1d778dd113ac)**
+![Food Truck and Venue User Stories 12 & 25](./docs/wireframes/venue-and-food-truck-wireframes/mvp-user-stories-12-25.png)
+
+#### Food Truck and Venue Sign Up Views
+
+Referencing **[MVP User Story 13](https://www.notion.so/jwsandeman/Sign-up-as-a-food-truck-user-type-5470fdb780cf47eda7d70e145f7170de)** and **[MVP User Story 23](https://www.notion.so/jwsandeman/Sign-up-as-a-venue-user-type-68d84723ce6347f199c3cba6c1f4d92b)**
+![Food Truck and Venue User Stories 13 & 23](./docs/wireframes/venue-and-food-truck-wireframes/mvp-user-stories-13-23.png)
+
+#### Food Truck Booking Request and Prior Booking Screens
+
+Referencing **[MVP User Story 26](https://www.notion.so/jwsandeman/Request-bookings-from-a-Food-Truck-for-a-date-and-time-61032872b1f94ef0997b099911e4ed30)**
+![Venue User Stories 26](./docs/wireframes/venue-and-food-truck-wireframes/mvp-user-story-26.png)
+
+#### Registered User Dashboard and Existing Booking Screen
+
+Referencing **[MVP User Story 19](https://www.notion.so/jwsandeman/View-my-existing-bookings-e761fa959d994e93b261cfc6882f3b1d)** and **[MVP User Story 29](https://www.notion.so/jwsandeman/View-my-existing-bookings-8f2eedc720a74cb4a0198119d7b3751f)**
+![Food Truck and Venue User Stories 19 & 29](./docs/wireframes/venue-and-food-truck-wireframes/mvp-user-stories-19-29.png)
 ***
 
 ### **Project Management**
