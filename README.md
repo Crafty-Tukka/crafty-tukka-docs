@@ -215,6 +215,12 @@ Referencing **[MVP User Story #3](https://www.notion.so/jwsandeman/View-a-list-o
 
 ![General User Stories #3 ane #7](./docs/wireframes/general-user-wireframes/mvp-user-stories-3-7.png)
 
+#### Venue List and Details Views
+
+Referencing **[MVP User Story #4](https://www.notion.so/jwsandeman/View-a-list-of-venues-54307186ee1741c5890f92c000045038)** and **[MVP User Story #8](https://www.notion.so/jwsandeman/View-the-details-of-a-particular-venue-6e8ab0c0e1274c6e880116d8dba2b25a)**
+
+![General User Stories #3 ane #7](./docs/wireframes/general-user-wireframes/mvp-user-stories-4-8.png)
+
 ***
 
 ### **Project Management**
