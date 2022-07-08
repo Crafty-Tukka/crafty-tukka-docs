@@ -91,22 +91,6 @@ The Crafty Tukka application was created for use by food truck and brewery busin
 
 ---
 
-### Dataflow Diagram
-
-#### [App Overview](https://whimsical.com/dfd-UYijwupffZf9VuHwkgBfZz@2Ux7TurymMpnj9rEL1ao)
-
-![Screen Shot 2022-07-08 at 4.27.57 pm.png](./docs/dfd/dfd_overview.png)
-
-#### [Venue Layer](https://whimsical.com/venue-dfd-U57MzhephLnUd5mjr9o8Nc@7YNFXnKbYm3i3AC1kTND4)
-
-![Screen Shot 2022-07-08 at 4.28.46 pm.png](./docs/dfd/dfd_venue.png)
-
-#### [Food Truck Layer](https://whimsical.com/food-truck-dfd-Rx5N3XNnpAL9jSJsnZmjzP@2Ux7TurymMUDEU2nufYw)
-
-![Screen Shot 2022-07-08 at 4.29.26 pm.png](./docs/dfd/dfd_food_truck.png)
-
----
-
 ### **User Stories**
 
 #### **Concept Personas**
@@ -211,5 +195,19 @@ As a Venue user type:
 ![Crafty Tukka Application Architecture Diagram](./docs/aad/aad-crafty-tukka.png)
 
 ### **Dataflow Diagram**
+
+#### [App Overview](https://whimsical.com/dfd-UYijwupffZf9VuHwkgBfZz@2Ux7TurymMpnj9rEL1ao)
+
+![Screen Shot 2022-07-08 at 4.27.57 pm.png](./docs/dfd/dfd_overview.png)
+
+#### [Venue Layer](https://whimsical.com/venue-dfd-U57MzhephLnUd5mjr9o8Nc@7YNFXnKbYm3i3AC1kTND4)
+
+![Screen Shot 2022-07-08 at 4.28.46 pm.png](./docs/dfd/dfd_venue.png)
+
+#### [Food Truck Layer](https://whimsical.com/food-truck-dfd-Rx5N3XNnpAL9jSJsnZmjzP@2Ux7TurymMUDEU2nufYw)
+
+![Screen Shot 2022-07-08 at 4.29.26 pm.png](./docs/dfd/dfd_food_truck.png)
+
+---
 
 ### **Project Management**
