@@ -10,7 +10,7 @@
 
 ---
 
-## Contents
+## Table of Contents
 
 * [1. Purpose](#1-purpose)
 * [2. Functionality / Features](#2-functionality-and-features)
@@ -25,7 +25,10 @@
     * [5.4.2 Food Truck Operator](#542-food-truck-operator)
     * [5.4.3 Venue](#543-venue)
 * [6. Application Architecture Diagram](#6-application-architecture-diagram)
-* [7. Dataflow Diagram](#7-dataflow-diagram)
+* [7. Dataflow Diagrams](#7-dataflow-diagrams)
+  * [7.1 Application Overview](#71-application-overview)
+  * [7.2 Venue Dataflow Layer](#72-venue-dataflow-layer)
+  * [7.3 Food Truck Dataflow Layer](#73-food-truck-dataflow-layer)
 * [8. Wireframes](#8-wireframes)
   * [8.1 Planning and Implementation](#81-planning-and-implementation)
   * [8.2 Wireframe Images](#82-wireframe-images)
@@ -197,19 +200,25 @@ As a Venue user type:
 
 ## ![Crafty Tukka Application Architecture Diagram](./docs/aad/aad-crafty-tukka.png)
 
-### **7. Dataflow Diagram**
+### **7. Dataflow Diagrams**
 
-#### [App Overview](https://whimsical.com/dfd-UYijwupffZf9VuHwkgBfZz@2Ux7TurymMpnj9rEL1ao)
+#### 7.1 Application Overview
 
 ![Screen Shot 2022-07-08 at 4.27.57 pm.png](./docs/dfd/dfd_overview.png)
 
-#### [Venue Layer](https://whimsical.com/venue-dfd-U57MzhephLnUd5mjr9o8Nc@7YNFXnKbYm3i3AC1kTND4)
+[Link to Application Overview](https://whimsical.com/dfd-UYijwupffZf9VuHwkgBfZz@2Ux7TurymMpnj9rEL1ao)
+
+#### 7.2 Venue Dataflow Layer
 
 ![Screen Shot 2022-07-08 at 4.28.46 pm.png](./docs/dfd/dfd_venue.png)
 
-#### [Food Truck Layer](https://whimsical.com/food-truck-dfd-Rx5N3XNnpAL9jSJsnZmjzP@2Ux7TurymMUDEU2nufYw)
+[Link to Venue Layer](https://whimsical.com/venue-dfd-U57MzhephLnUd5mjr9o8Nc@7YNFXnKbYm3i3AC1kTND4)
+
+#### 7.3 Food Truck Dataflow Layer
 
 ![Screen Shot 2022-07-08 at 4.29.26 pm.png](./docs/dfd/dfd_food_truck.png)
+
+[Link to Food Truck Layer](https://whimsical.com/food-truck-dfd-Rx5N3XNnpAL9jSJsnZmjzP@2Ux7TurymMUDEU2nufYw)
 
 ---
 
