@@ -44,50 +44,14 @@ The Crafty Tukka application was created for use by food truck and brewery busin
 
 ### **Tech Stack**
 
-#### **Front-End**
-
-- React.js
-- HTML5
-- CSS3
-- Javascript
-- JSX
-
-#### **Back-End**
-
-- Ruby on Rails
-- Ruby
-
-#### **Database**
-
-- Postgresql
-
-#### **Libraries and Utilities**
-
-- Axios
-- Material UI
-- Draw.io
-- Whimsical
-- AWS - S3
-
-#### **Deployment**
-
-- Heroku
-- Netlify
-
-#### **Testing**
-
-- Rspec Rails
-- Jest
-
-#### **Project Management**
-
-- Notion
-- Discord
-
-#### **Version Control**
-
-- Git
-- GitHub
+| Front-End | Back-End | Tools | Dev-Ops | Deployment | Testing |
+| --- | --- | --- | --- | --- | --- |
+| React.js | Ruby on Rails | Draw.io | Git | Heroku | Jest |
+| HTML5 | Ruby | Whimsical | GitHub | Netlify | Rspec Rails |
+| CSS3 | Postgresql | Notion | VS Code |  |  |
+| JSX | Bcrypt | Discord |  |  |  |
+| Axios | Knock |  |  |  |  |
+| Material UI |  |  |  |  |  |
 
 ---
 
