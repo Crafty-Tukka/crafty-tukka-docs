@@ -38,7 +38,7 @@
     * [8.2.5 Venue and Food Truck Filter Views](#825-venue-and-food-truck-filter-views)
     * [8.2.6 Registered User Sign In Views](#826-registered-user-sign-in-views)
     * [8.2.7 Food Truck and Venue Sign Up Views](#827-food-truck-and-venue-sign-up-views)
-    * [8.2.8 Food Truck Booking Request and Prior Booking Screens](#828food-truck-booking-request-and-prior-booking-screens)
+    * [8.2.8 Food Truck Booking Request and Prior Booking Screens](#828-food-truck-booking-request-and-prior-booking-screens)
     * [8.2.9 Registered User Dashboard and Existing Booking Screen](#829-registered-user-dashboard-and-existing-booking-screen)
 * [9. Project Management](#9-project-management)
   * [9.1 Methodology](#91-methodology)
