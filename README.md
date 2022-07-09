@@ -105,31 +105,31 @@ The developers of Crafty Tukka created **four** personas whose needs have guided
 
 1. **The Craft Brewery Patron**
 
-   - Visits craft breweries on a regular to semi-regular basis.
-   - Is happy to make a journey across town to visit a particular brewery or attend an event held at one.
-   - Enjoys the social environment created by a craft brewery and will often visit one with family and friends.
-   - Choice of visited brewery sometimes dictated by the choice of food or entertainment on offer.
+   * Visits craft breweries on a regular to semi-regular basis.
+   * Is happy to make a journey across town to visit a particular brewery or attend an event held at one.
+   * Enjoys the social environment created by a craft brewery and will often visit one with family and friends.
+   * Choice of visited brewery sometimes dictated by the choice of food or entertainment on offer.
 
 1. **The Food-Truck Foodie**
 
-   - A culinary adventurer who is seeking the best food truck fare that Brisbane has to offer.
-   - Has favourite food trucks that they will seek out on a regular basis.
-   - Will actively search for trucks and cuisines which they have not tried yet.
+   * A culinary adventurer who is seeking the best food truck fare that Brisbane has to offer.
+   * Has favourite food trucks that they will seek out on a regular basis.
+   * Will actively search for trucks and cuisines which they have not tried yet.
 
 1. **The Brewery Events Coordinator**
 
-   - Responsible for organising and marketing events to be held at the brewery.
-   - Looks for unique and innovative themes concepts to attract patrons to the venue.
-   - Is time-poor as this role is often part-time or shared with other brewery duties.
-   - Handles social media posts and online promotion of the venue.
-   - Requires tools to make the performace of their role more efficent and effective.
+   * Responsible for organising and marketing events to be held at the brewery.
+   * Looks for unique and innovative themes concepts to attract patrons to the venue.
+   * Is time-poor as this role is often part-time or shared with other brewery duties.
+   * Handles social media posts and online promotion of the venue.
+   * Requires tools to make the performace of their role more efficent and effective.
 
 1. **The Food Truck Operator**
-   - A small business owner/operator whose existence depends of securing ongoing locations in which to trade.
-   - Responsible for their own marketing, social media accounts and brand awareness.
-   - Takes great pride in creating high-quality food.
-   - Cost margins are often razor-thin so having a full operating schedule with access to adequate patronage is essential to the viability of the business.
-   - Is looking for ways to make the operation of the business more cost and time efficient.
+   * A small business owner/operator whose existence depends of securing ongoing locations in which to trade.
+   * Responsible for their own marketing, social media accounts and brand awareness.
+   * Takes great pride in creating high-quality food.
+   * Cost margins are often razor-thin so having a full operating schedule with access to adequate patronage is essential to the viability of the business.
+   * Is looking for ways to make the operation of the business more cost and time efficient.
 
 #### **5.2 User Story Development**
 
