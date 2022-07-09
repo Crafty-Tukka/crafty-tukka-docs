@@ -178,9 +178,9 @@ As a Venue user type:
 
 ### **Wireframes**
 
-#### [Link to all wireframes](https://whimsical.com/wireframes-RB4cHUJf4FAsVbC8ZHvPan)
+#### [Link to all wireframes](https://whimsical.com/wireframes-RB4cHUJf4FAsVbC8ZHvPan@VsSo8s35VHC849dBSrUayJ)
 
-#### [Link to annotated wireframes](https://whimsical.com/wireframes-formatted-for-user-stories-Cy8xZSgH1meeDS3Gn3q3gw)
+#### [Link to annotated wireframes](https://whimsical.com/wireframes-formatted-for-user-stories-Cy8xZSgH1meeDS3Gn3q3gw@AhRp651J2qt6EUf5aRbrwNM8P)
 
 #### Planning and Implementation
 
