@@ -93,6 +93,8 @@ The Crafty Tukka application was created for use by food truck and brewery busin
 
 ### **User Stories**
 
+#### **[Link to User Stories Kanban Board](https://www.notion.so/jwsandeman/R4-User-Stories-433e840137fb4c10b220427071b6b4b9)**
+
 #### **Concept Personas**
 
 The developers of Crafty Tukka created **four** personas whose needs have guided how the application looks and functions:
@@ -211,6 +213,20 @@ As a Venue user type:
 ---
 
 ### **Wireframes**
+
+#### [Link to all wireframes](https://whimsical.com/wireframes-RB4cHUJf4FAsVbC8ZHvPan)
+
+#### [Link to annotated wireframes](https://whimsical.com/wireframes-formatted-for-user-stories-Cy8xZSgH1meeDS3Gn3q3gw)
+
+#### Planning and Implementation
+
+When creating the wireframes for Crafty Tukka, the developers were guided by the requirements of each user story/epic with priority given to minimum viable product (MVP) features. As all users of the application will be able to perform the actions of a _general public_ user type, the developers prioritised the development of the wireframes for their page views before starting on those for the _venue_ and _food truck_ users.
+
+Each wireframe was annotated with a reference to the corresponding user stories and links inserted into the [User Story Card](https://www.notion.so/jwsandeman/Define-my-primary-cuisine-category-947e6243bd2240ec8773e8a2e98865fb) components of the [User Stories Kanban Board](https://www.notion.so/jwsandeman/R4-User-Stories-433e840137fb4c10b220427071b6b4b9).
+
+A _mobile first_ methodology will be used in the development of the application components and this has been reflected through careful consideration of UX/UI features in the mobile views.
+
+Below are examples of how each user story is to be rendered in mobile, tablet and desktop views with links provided to the corresponding user stories.
 
 #### Landing Page Views
 
