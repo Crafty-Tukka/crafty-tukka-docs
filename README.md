@@ -12,8 +12,6 @@
 
 ## Contents
 
-***
-
 * [1. Purpose](#1-purpose)
 * [2. Functionality / Features](#2-functionality-and-features)
 * [3. Target Audience](#3-target-audience)
