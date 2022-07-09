@@ -44,14 +44,14 @@ The Crafty Tukka application was created for use by food truck and brewery busin
 
 ### **Tech Stack**
 
-| Front-End | Back-End | Tools | Dev-Ops | Deployment | Testing |
-| --- | --- | --- | --- | --- | --- |
-| React.js | Ruby on Rails | Draw.io | Git | Heroku | Jest |
-| HTML5 | Ruby | Whimsical | GitHub | Netlify | Rspec Rails |
-| CSS3 | Postgresql | Notion | VS Code |  |  |
-| JSX | Bcrypt | Discord |  |  |  |
-| Axios | Knock |  |  |  |  |
-| Material UI |  |  |  |  |  |
+| Front-End   | Back-End      | Tools     | Dev-Ops | Deployment | Testing     |
+| ----------- | ------------- | --------- | ------- | ---------- | ----------- |
+| React.js    | Ruby on Rails | Draw.io   | Git     | Heroku     | Jest        |
+| HTML5       | Ruby          | Whimsical | GitHub  | Netlify    | Rspec Rails |
+| CSS3        | Postgresql    | Notion    | VS Code |            |             |
+| JSX         | Bcrypt        | Discord   |         |            |             |
+| Axios       | Knock         |           |         |            |             |
+| Material UI |               |           |         |            |             |
 
 ---
 
@@ -224,3 +224,27 @@ Referencing **[MVP User Story 19](https://www.notion.so/jwsandeman/View-my-exist
 ---
 
 ### **Project Management**
+
+### Methodology
+
+We have decided to go with agile methodology with the use of epics and sprints. This allows us to take an iterative approach to our project management and to ensure that we are kept accountable to our goals. We found that by setting up a collaborative workflow environment in Notion we were able to improve our efficiency and reduce any double handling of tasks.
+
+### Workflow
+
+The overall project management will be handled by the Project Deliverables timeline that we set up to help keep us accountable to our daily targets. This is the single source of truth for our project and all of our documentation, processes, ideas, goals and code snippets live here.
+
+![Project Deliverables](./docs/project-management/workflow-project-deliverables.png)
+
+### Task Management
+
+#### General Tasks
+
+General task management will happen on the tasks board which will serve to pick up any once-off project-related tasks that aren't directly related to implementing the epics and sprints. Any Bugs that we come across will also be caught and triaged on this board as well. These will be referenced in the GitHub pull requests as necessary.
+
+![General Tasks](./docs/project-management/workflow-general-tasks.png)
+
+#### User Story Tasks
+
+Any tasks associated with the epics and sprints will happen in the user stories board and will be referenced in our GitHub pull requests. Each of these individual story cards will be made up of sub-tasks which we will use to help implement the code for the user story.
+
+![User Story Tasks](./docs/project-management/workflow-user-story-tasks.png)
