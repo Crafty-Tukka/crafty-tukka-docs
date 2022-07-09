@@ -10,7 +10,46 @@
 
 ---
 
-### **Purpose**
+## Contents
+
+***
+
+* [1. Purpose](#1-purpose)
+* [2. Functionality / Features](#2-functionality-and-features)
+* [3. Target Audience](#3-target-audience)
+* [4. Tech Stack](#4-tech-stack)
+* [5. User Stories](#5-user-stories)
+  * [5.1 Concept Personas](#51-concept-personas)
+  * [5.2 User Story Development](#52-user-story-development)
+  * [5.3 User Story Management](#53-user-story-management)
+  * [5.4 Final User Stories](#54-final-user-stories)
+    * [5.4.1 General Public User](#541-general-public-user)
+    * [5.4.2 Food Truck Operator](#542-food-truck-operator)
+    * [5.4.3 Venue](#543-venue)
+* [6. Application Architecture Diagram](#6-application-architecture-diagram)
+* [7. Dataflow Diagram](#7-dataflow-diagram)
+* [8. Wireframes](#8-wireframes)
+  * [8.1 Planning and Implementation](#81-planning-and-implementation)
+  * [8.2 Wireframe Images](#82-wireframe-images)
+    * [8.2.1 Landing Page Views](#821-landing-page-views)
+    * [8.2.2 Map View With Event Details](#822-map-view-with-event-details)
+    * [8.2.3 Food Truck List and Details Views](#823-food-truck-list-and-details-views)
+    * [8.2.4 Venue List and Details Views](#824-venue-list-and-details-views)
+    * [8.2.5 Venue and Food Truck Filter Views](#825-venue-and-food-truck-filter-views)
+    * [8.2.6 Registered User Sign In Views](#826-registered-user-sign-in-views)
+    * [8.2.7 Food Truck and Venue Sign Up Views](#827-food-truck-and-venue-sign-up-views)
+    * [8.2.8 Food Truck Booking Request and Prior Booking Screens](#828-food-truck-booking-request-and-prior-booking-screens)
+    * [8.2.9 Registered User Dashboard and Existing Booking Screen](#829-registered-user-dashboard-and-existing-booking-screen)
+* [9. Project Management](#9-project-management)
+  * [9.1 Methodology](#91-methodology)
+  * [9.2 Workflow](#92-workflow)
+  * [9.3 Task Management](#93-task-management)
+    * [9.3.1 General Tasks](#931-general-tasks)
+    * [9.3.2 User Story Tasks](#932-user-story-tasks)
+
+---
+
+### **1. Purpose**
 
 In recent years, the city of Brisbane has seen the rise of numerous independent craft breweries whose locations range from the inner-city through to the outer-suburbs. Many of these breweries serve as community hubs where people can go to enjoy a locally produced beverage and quite often, purchase culinary offerings from one of the fantastic food trucks that operate in this great city.
 
@@ -22,7 +61,7 @@ Crafty Tukka is a web application that aims to solve these problems by facilitat
 
 ---
 
-### **Functionality / Features**
+### **2. Functionality and Features**
 
 Crafty Tukka features 2 types of user accounts that require an initial sign-up and secure login credentials: _Venue and Food Truck_.
 
@@ -36,13 +75,13 @@ Any member of the public can view the map and event list. They also have the abi
 
 ---
 
-### **Target Audience**
+### **3. Target Audience**
 
 The Crafty Tukka application was created for use by food truck and brewery businesses in Brisbane. It also aims to serve members of the general public who wish to find out which breweries are hosting food trucks on a given day.
 
 ---
 
-### **Tech Stack**
+### **4. Tech Stack**
 
 | Front-End   | Back-End      | Tools     | Dev-Ops | Deployment | Testing     |
 | ----------- | ------------- | --------- | ------- | ---------- | ----------- |
@@ -55,11 +94,11 @@ The Crafty Tukka application was created for use by food truck and brewery busin
 
 ---
 
-### **User Stories**
+### **5. User Stories**
 
 #### **[Link to User Stories Kanban Board](https://www.notion.so/jwsandeman/R4-User-Stories-433e840137fb4c10b220427071b6b4b9)**
 
-#### **Concept Personas**
+#### **5.1 Concept Personas**
 
 The developers of Crafty Tukka created **four** personas whose needs have guided how the application looks and functions:
 
@@ -91,23 +130,23 @@ The developers of Crafty Tukka created **four** personas whose needs have guided
    - Cost margins are often razor-thin so having a full operating schedule with access to adequate patronage is essential to the viability of the business.
    - Is looking for ways to make the operation of the business more cost and time efficient.
 
-#### **User Story Development**
+#### **5.2 User Story Development**
 
 Following the creation of the four concept personas, the development team determined which functions each user would want to perform in the application. If was determined that the _Craft Brewery Patron_ and _Food Truck Foodie_ personas shared overlapping needs and were therefore amalgamated into a single _General Public_ user type. The joining of these personas into the one user story was possible due to the fact that they did not require authentication to use the application.
 
 Amendments to the actions a _Food Truck_ user type could perform were also made after consideration of real-world requirements. An example of this occurred where, in the original user story, a _Food Truck_ user could request a booking from a _Brewery Venue_ user. Upon consultation with brewery venues, it was determined that this feature would not be desired by breweries and add unnecessary complexity to the application. As a result, the feature of food trucks requesting bookings from a venue was scrapped from their story.
 
-#### **User Story Management**
+#### **5.3 User Story Management**
 
 In order to manage the application user stories, the developers created a kanban board dedicated to tracking their changes and implementation. The board categorises each user story as _Minimum Viable Product_ (MVP) or _Sprinkles_ (optional features). Within each of these categories, the stories are tagged with the attriutes _Epic_ (User Type) and _Priority_ for ease of identification and are assigned a unique number identifier for referencing in the development phase. Stories that have been removed from either MVP and Sprinkles shifted into a Backlog list.
 
 ![User Story Kanban Board ScreenShot](./docs/user-stories/user-stories-07072022.png)
 
-#### **Final User Stories**
+#### **5.4 Final User Stories**
 
 Using the concept personas a guide, the developers of Crafty Tukka created clear stories for the **three** user types that will interact with the application. The aim of creating a streamlined _Minimum Viable Product_ (MVP) guided what was to be initially included and excluded from each user story. A committment to constantly seek feedback from users during development and production means that these stories are subject to change.
 
-#### **General Public User**
+#### **5.4.1 General Public User**
 
 As a General Public user type:
 
@@ -122,7 +161,7 @@ As a General Public user type:
 | Filter food trucks by cuisine type                                   | Narrow down my search results to help me make a choice | Access via a dropdown menu in the _view trucks_ component |
 | Filter venues by event date                                          | Narrow down my search results to help me make a choice | Access via a dropdown menu in the _view venues_ component |
 
-#### **Food Truck Operator**
+#### **5.4.2 Food Truck Operator**
 
 As a Food Truck Operator user type:
 
@@ -137,7 +176,7 @@ As a Food Truck Operator user type:
 | View my pending bookings                                   | Approve or reject them                                          | Access via clickable link in the user dashboard                                        |
 | Upload my business image as an avatar                      | Have recognisable branding on the map                           | Required at the time of sign up and can be edited by the user in the edit profile page |
 
-#### **Venue**
+#### **5.4.3 Venue**
 
 As a Venue user type:
 
@@ -156,11 +195,11 @@ As a Venue user type:
 
 ---
 
-### **Application Architecture Diagram**
+### **6. Application Architecture Diagram**
 
 ## ![Crafty Tukka Application Architecture Diagram](./docs/aad/aad-crafty-tukka.png)
 
-### **Dataflow Diagram**
+### **7. Dataflow Diagram**
 
 #### [App Overview](https://whimsical.com/dfd-UYijwupffZf9VuHwkgBfZz@2Ux7TurymMpnj9rEL1ao)
 
@@ -176,13 +215,13 @@ As a Venue user type:
 
 ---
 
-### **Wireframes**
+### **8. Wireframes**
 
 #### [Link to all wireframes](https://whimsical.com/wireframes-RB4cHUJf4FAsVbC8ZHvPan@VsSo8s35VHC849dBSrUayJ)
 
 #### [Link to annotated wireframes](https://whimsical.com/wireframes-formatted-for-user-stories-Cy8xZSgH1meeDS3Gn3q3gw@AhRp651J2qt6EUf5aRbrwNM8P)
 
-#### Planning and Implementation
+#### 8.1 Planning and Implementation
 
 When creating the wireframes for Crafty Tukka, the developers were guided by the requirements of each user story/epic with priority given to minimum viable product (MVP) features. As all users of the application will be able to perform the actions of a _general public_ user type, the developers prioritised the development of the wireframes for their page views before starting on those for the _venue_ and _food truck_ users.
 
@@ -192,74 +231,76 @@ A _mobile first_ methodology will be used in the development of the application 
 
 Below are examples of how each user story is to be rendered in mobile, tablet and desktop views with links provided to the corresponding user stories.
 
-#### Landing Page Views
+#### **8.2 Wireframe Images**
+
+#### 8.2.1 Landing Page Views
 
 Referencing **[MVP User Story #1](https://jwsandeman.notion.site/View-today-s-operating-food-trucks-on-a-map-9d7e0e18537246aba2c5683e42fff3e6)**
 ![General User Story #1 Wireframes](./docs/wireframes/general-user-wireframes/landing-page-mvp-1.png)
 
-#### Map View With Event Details
+#### 8.2.2 Map View With Event Details
 
 Referencing **[MVP User Story #2](https://jwsandeman.notion.site/View-today-s-operating-food-truck-events-in-a-sidebar-list-next-to-the-map-f8a9edd85c7144cdb8c60cc018c325fa)**
 ![General User Story #2 Wireframes](./docs/wireframes/general-user-wireframes/mvp-user-story-2.png)
 
-#### Food Truck List and Details Views
+#### 8.2.3 Food Truck List and Details Views
 
 Referencing **[MVP User Story #3](https://www.notion.so/jwsandeman/View-a-list-of-food-trucks-37be7a3edf824e7c8427f4456af1c5a2)** and **[MVP User Story #7](https://jwsandeman.notion.site/View-the-details-of-a-particular-food-truck-402c2caa83cf4414a16a9c3264ec3b61)**
 ![General User Stories #3 ane #7](./docs/wireframes/general-user-wireframes/mvp-user-stories-3-7.png)
 
-#### Venue List and Details Views
+#### 8.2.4 Venue List and Details Views
 
 Referencing **[MVP User Story #4](https://www.notion.so/jwsandeman/View-a-list-of-venues-54307186ee1741c5890f92c000045038)** and **[MVP User Story #8](https://www.notion.so/jwsandeman/View-the-details-of-a-particular-venue-6e8ab0c0e1274c6e880116d8dba2b25a)**
 ![General User Stories #4 ane #8](./docs/wireframes/general-user-wireframes/mvp-user-stories-4-8.png)
 
-#### Venue and Food Truck Filter Views
+#### 8.2.5 Venue and Food Truck Filter Views
 
 Referencing **[MVP User Story #5](https://jwsandeman.notion.site/Filter-venues-by-date-027e8fd1b6174767918882ed78a5af64)** and **[MVP User Story #6](https://www.notion.so/jwsandeman/Filter-food-trucks-by-cuisine-type-84073effae814eec9bde136fa73467d8)**
 ![General User Stories #5 ane #6](./docs/wireframes/general-user-wireframes/mvp-user-stories-5-6.png)
 
-#### Registered User Sign In Views
+#### 8.2.6 Registered User Sign In Views
 
 Referencing **[MVP User Story 12](https://www.notion.so/jwsandeman/Log-in-and-out-using-secure-credentials-3100c2eb02234785886797b0d3bb4363)** and **[MVP User Story 25](https://jwsandeman.notion.site/Log-in-and-out-using-secure-credentials-646984d86a024af8ad6f1d778dd113ac)**
 ![Food Truck and Venue User Stories 12 & 25](./docs/wireframes/venue-and-food-truck-wireframes/mvp-user-stories-12-25.png)
 
-#### Food Truck and Venue Sign Up Views
+#### 8.2.7 Food Truck and Venue Sign Up Views
 
 Referencing **[MVP User Story 13](https://www.notion.so/jwsandeman/Sign-up-as-a-food-truck-user-type-5470fdb780cf47eda7d70e145f7170de)** and **[MVP User Story 23](https://www.notion.so/jwsandeman/Sign-up-as-a-venue-user-type-68d84723ce6347f199c3cba6c1f4d92b)**
 ![Food Truck and Venue User Stories 13 & 23](./docs/wireframes/venue-and-food-truck-wireframes/mvp-user-stories-13-23.png)
 
-#### Food Truck Booking Request and Prior Booking Screens
+#### 8.2.8 Food Truck Booking Request and Prior Booking Screens
 
 Referencing **[MVP User Story 26](https://www.notion.so/jwsandeman/Request-bookings-from-a-Food-Truck-for-a-date-and-time-61032872b1f94ef0997b099911e4ed30)**
 ![Venue User Stories 26](./docs/wireframes/venue-and-food-truck-wireframes/mvp-user-story-26.png)
 
-#### Registered User Dashboard and Existing Booking Screen
+#### 8.2.9 Registered User Dashboard and Existing Booking Screen
 
 Referencing **[MVP User Story 19](https://www.notion.so/jwsandeman/View-my-existing-bookings-e761fa959d994e93b261cfc6882f3b1d)** and **[MVP User Story 29](https://www.notion.so/jwsandeman/View-my-existing-bookings-8f2eedc720a74cb4a0198119d7b3751f)**
 ![Food Truck and Venue User Stories 19 & 29](./docs/wireframes/venue-and-food-truck-wireframes/mvp-user-stories-19-29.png)
 
 ---
 
-### **Project Management**
+### **9. Project Management**
 
-### Methodology
+### 9.1 Methodology
 
 We have decided to go with agile methodology with the use of epics and sprints. This allows us to take an iterative approach to our project management and to ensure that we are kept accountable to our goals. We found that by setting up a collaborative workflow environment in Notion we were able to improve our efficiency and reduce any double handling of tasks.
 
-### Workflow
+### 9.2 Workflow
 
 The overall project management will be handled by the Project Deliverables timeline that we set up to help keep us accountable to our daily targets. This is the single source of truth for our project and all of our documentation, processes, ideas, goals and code snippets live here.
 
 ![Project Deliverables](./docs/project-management/workflow-project-deliverables.png)
 
-### Task Management
+### 9.3 Task Management
 
-#### General Tasks
+#### 9.3.1 General Tasks
 
 General task management will happen on the tasks board which will serve to pick up any once-off project-related tasks that aren't directly related to implementing the epics and sprints. Any Bugs that we come across will also be caught and triaged on this board as well. These will be referenced in the GitHub pull requests as necessary.
 
 ![General Tasks](./docs/project-management/workflow-general-tasks.png)
 
-#### User Story Tasks
+#### 9.3.2 User Story Tasks
 
 Any tasks associated with the epics and sprints will happen in the user stories board and will be referenced in our GitHub pull requests. Each of these individual story cards will be made up of sub-tasks which we will use to help implement the code for the user story.
 
