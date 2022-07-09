@@ -12,41 +12,55 @@
 
 ## Table of Contents
 
-* [1. Purpose](#1-purpose)
-* [2. Functionality / Features](#2-functionality-and-features)
-* [3. Target Audience](#3-target-audience)
-* [4. Tech Stack](#4-tech-stack)
-* [5. User Stories](#5-user-stories)
-  * [5.1 Concept Personas](#51-concept-personas)
-  * [5.2 User Story Development](#52-user-story-development)
-  * [5.3 User Story Management](#53-user-story-management)
-  * [5.4 Final User Stories](#54-final-user-stories)
-    * [5.4.1 General Public User](#541-general-public-user)
-    * [5.4.2 Food Truck Operator](#542-food-truck-operator)
-    * [5.4.3 Venue](#543-venue)
-* [6. Application Architecture Diagram](#6-application-architecture-diagram)
-* [7. Dataflow Diagrams](#7-dataflow-diagrams)
-  * [7.1 Application Overview](#71-application-overview)
-  * [7.2 Venue Dataflow Layer](#72-venue-dataflow-layer)
-  * [7.3 Food Truck Dataflow Layer](#73-food-truck-dataflow-layer)
-* [8. Wireframes](#8-wireframes)
-  * [8.1 Planning and Implementation](#81-planning-and-implementation)
-  * [8.2 Wireframe Images](#82-wireframe-images)
-    * [8.2.1 Landing Page Views](#821-landing-page-views)
-    * [8.2.2 Map View With Event Details](#822-map-view-with-event-details)
-    * [8.2.3 Food Truck List and Details Views](#823-food-truck-list-and-details-views)
-    * [8.2.4 Venue List and Details Views](#824-venue-list-and-details-views)
-    * [8.2.5 Venue and Food Truck Filter Views](#825-venue-and-food-truck-filter-views)
-    * [8.2.6 Registered User Sign In Views](#826-registered-user-sign-in-views)
-    * [8.2.7 Food Truck and Venue Sign Up Views](#827-food-truck-and-venue-sign-up-views)
-    * [8.2.8 Food Truck Booking Request and Prior Booking Screens](#828-food-truck-booking-request-and-prior-booking-screens)
-    * [8.2.9 Registered User Dashboard and Existing Booking Screen](#829-registered-user-dashboard-and-existing-booking-screen)
-* [9. Project Management](#9-project-management)
-  * [9.1 Methodology](#91-methodology)
-  * [9.2 Workflow](#92-workflow)
-  * [9.3 Task Management](#93-task-management)
-    * [9.3.1 General Tasks](#931-general-tasks)
-    * [9.3.2 User Story Tasks](#932-user-story-tasks)
+- [**Crafty Tukka**](#crafty-tukka)
+  - [**T3A2-A - Full Stack App (Part A)**](#t3a2-a---full-stack-app-part-a)
+    - [An application created by Simon Tanna and Jason Sandeman](#an-application-created-by-simon-tanna-and-jason-sandeman)
+    - [**Click here** to access the GitHub Repository for this file](#click-here-to-access-the-github-repository-for-this-file)
+  - [Table of Contents](#table-of-contents)
+    - [**1. Purpose**](#1-purpose)
+    - [**2. Functionality and Features**](#2-functionality-and-features)
+    - [**3. Target Audience**](#3-target-audience)
+    - [**4. Tech Stack**](#4-tech-stack)
+    - [**5. User Stories**](#5-user-stories)
+      - [**Link to User Stories Kanban Board**](#link-to-user-stories-kanban-board)
+      - [**5.1 Concept Personas**](#51-concept-personas)
+      - [**5.2 User Story Development**](#52-user-story-development)
+      - [**5.3 User Story Management**](#53-user-story-management)
+      - [**5.4 Final User Stories**](#54-final-user-stories)
+      - [**5.4.1 General Public User**](#541-general-public-user)
+      - [**5.4.2 Food Truck Operator**](#542-food-truck-operator)
+      - [**5.4.3 Venue**](#543-venue)
+    - [**6. Application Architecture Diagram**](#6-application-architecture-diagram)
+  - [!Crafty Tukka Application Architecture Diagram](#)
+    - [**7. Dataflow Diagrams**](#7-dataflow-diagrams)
+      - [7.1 Application Overview](#71-application-overview)
+      - [7.2 Venue Dataflow Layer](#72-venue-dataflow-layer)
+      - [7.3 Food Truck Dataflow Layer](#73-food-truck-dataflow-layer)
+    - [**8. Wireframes**](#8-wireframes)
+      - [Link to all wireframes](#link-to-all-wireframes)
+      - [Link to annotated wireframes](#link-to-annotated-wireframes)
+      - [8.1 Planning and Implementation](#81-planning-and-implementation)
+      - [**8.2 Wireframe Images**](#82-wireframe-images)
+      - [8.2.1 Landing Page Views](#821-landing-page-views)
+      - [8.2.2 Map View With Event Details](#822-map-view-with-event-details)
+      - [8.2.3 Food Truck List and Details Views](#823-food-truck-list-and-details-views)
+      - [8.2.4 Venue List and Details Views](#824-venue-list-and-details-views)
+      - [8.2.5 Venue and Food Truck Filter Views](#825-venue-and-food-truck-filter-views)
+      - [8.2.6 Registered User Sign In Views](#826-registered-user-sign-in-views)
+      - [8.2.7 Food Truck and Venue Sign Up Views](#827-food-truck-and-venue-sign-up-views)
+      - [8.2.8 Food Truck Booking Request and Prior Booking Screens](#828-food-truck-booking-request-and-prior-booking-screens)
+      - [8.2.9 Registered User Dashboard and Existing Booking Screen](#829-registered-user-dashboard-and-existing-booking-screen)
+    - [**9. Project Management**](#9-project-management)
+    - [9.1 Methodology](#91-methodology)
+    - [9.2 Workflow](#92-workflow)
+    - [9.3 Task Management](#93-task-management)
+      - [9.3.1 General Tasks](#931-general-tasks)
+      - [9.3.2 User Story Tasks](#932-user-story-tasks)
+    - [9.4 Screenshots](#94-screenshots)
+      - [9.4.1 01/07/2022](#941-01072022)
+      - [9.4.2 07/07/2022](#942-07072022)
+      - [9.4.3 08/07/2022](#943-08072022)
+      - [9.4.4 09/07/2022](#944-09072022)
 
 ---
 
@@ -312,3 +326,61 @@ General task management will happen on the tasks board which will serve to pick 
 Any tasks associated with the epics and sprints will happen in the user stories board and will be referenced in our GitHub pull requests. Each of these individual story cards will be made up of sub-tasks which we will use to help implement the code for the user story.
 
 ![User Story Tasks](./docs/project-management/workflow-user-story-tasks.png)
+
+### 9.4 Screenshots
+
+#### 9.4.1 01/07/2022
+
+Project Deliverables
+
+![1-7-22-project](./docs/project-management/1-7-22-project.png)
+
+Tasks Board
+
+![1-7-22-tasks](./docs/project-management/1-7-22-tasks.jpeg)
+
+![1-7-22-tasks1](./docs/project-management/1-7-22-tasks1.png)
+
+User Stories Development
+
+![1-7-22-user](./docs/project-management/1-7-22-user.png)
+
+![1-7-22-user1](./docs/project-management/1-7-22-user1.png)
+
+#### 9.4.2 07/07/2022
+
+Tasks Board
+
+![7-7-22-tasks](./docs/project-management/7-7-22-tasks.png)
+
+#### 9.4.3 08/07/2022
+
+Project Deliverables
+
+![8-7-22-project](./docs/project-management/8-7-22-project.png)
+
+Tasks Board
+
+![8-7-22-tasks](./docs/project-management/8-7-22-tasks.png)
+
+#### 9.4.4 09/07/2022
+
+Project Deliverables
+
+![9-7-22-project](./docs/project-management/9-7-22-project.png)
+
+Tasks Board
+
+![9-7-22-tasks](./docs/project-management/9-7-22-tasks.png)
+
+![9-7-22-tasks1](./docs/project-management/9-7-22-tasks1.png)
+
+User Stories Development
+
+![9-7-22-user](./docs/project-management/9-7-22-user.png)
+
+![9-7-22-user1](./docs/project-management/9-7-22-user1.png)
+
+![9-7-22-user2](./docs/project-management/9-7-22-user2.png)
+
+![9-7-22-user3](./docs/project-management/9-7-22-user3.png)
