@@ -294,17 +294,19 @@ Referencing **[MVP User Story 19](https://www.notion.so/jwsandeman/View-my-exist
 
 ### **9. Project Management**
 
-### 9.1 Methodology
+**[Main Project Management Platform](https://jwsandeman.notion.site/T3A2-Full-Stack-App-Part-A-B-ff8d5ff2d4674eaabe5d2f1a7402fcd5)**
+
+#### 9.1 Methodology
 
 We have decided to go with agile methodology with the use of epics and sprints. This allows us to take an iterative approach to our project management and to ensure that we are kept accountable to our goals. We found that by setting up a collaborative workflow environment in Notion we were able to improve our efficiency and reduce any double handling of tasks.
 
-### 9.2 Workflow
+#### 9.2 Workflow
 
 The overall project management will be handled by the Project Deliverables timeline that we set up to help keep us accountable to our daily targets. This is the single source of truth for our project and all of our documentation, processes, ideas, goals and code snippets live here.
 
 ![Project Deliverables](./docs/project-management/workflow-project-deliverables.png)
 
-### 9.3 Task Management
+#### 9.3 Task Management
 
 #### 9.3.1 General Tasks
 
@@ -320,7 +322,7 @@ Any tasks associated with the epics and sprints will happen in the user stories 
 
 ![User Story Card](./docs/project-management/workflow-user-story-card.png)
 
-### 9.4 Screenshots
+#### 9.4 Screenshots
 
 #### 9.4.1 01/07/2022
 
