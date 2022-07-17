@@ -294,7 +294,7 @@ Referencing **[MVP User Story 19](https://www.notion.so/jwsandeman/View-my-exist
 
 ### **9. Project Management**
 
-**[Main Project Management Platform and Kanban Boards](https://jwsandeman.notion.site/T3A2-Full-Stack-App-Part-A-B-ff8d5ff2d4674eaabe5d2f1a7402fcd5)**
+**[Link to Main Project Management Platform and Kanban Boards](https://jwsandeman.notion.site/T3A2-Full-Stack-App-Part-A-B-ff8d5ff2d4674eaabe5d2f1a7402fcd5)**
 
 #### 9.1 Methodology
 
